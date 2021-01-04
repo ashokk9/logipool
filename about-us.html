@@ -1,0 +1,431 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="images/logipoollogo.png" type="image/png">
+    <title>logipool</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="vendors/linericon/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <style>
+        .top_menu .dn_btn {
+            line-height: 42px;
+            display: inline-block;
+            font-size: 12px;
+            margin-right: 30px;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            color: #f8f9fa;
+            transition: all 300ms linear 0s;
+        }
+
+        .cwt {
+            color: #222222;
+            font-weight: bold;
+            font-size: 58px;
+            line-height: 120%;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+    </style>
+    <style>
+        .container1 {
+            position: relative;
+        }
+
+
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay {
+            position: absolute;
+            text-size-adjust: 10px;
+            transition: .5s ease;
+            bottom: 0;
+            left: 100%;
+            right: 0;
+            background-color: #008CBA;
+            overflow: hidden;
+            width: 0;
+            height: 100%;
+            transition: .5s ease;
+        }
+
+        .container1:hover .overlay {
+            width: 100%;
+            left: 0;
+        }
+
+        .text {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            text-justify: auto;
+            position: 20px 20px 20px 20px;
+            /*-webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            white-space: nowrap;*/
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+    <style>
+
+        .panel-group .panel {
+            border-radius: 0;
+            box-shadow: none;
+            border-color: #EEEEEE;
+        }
+
+        .panel-default > .panel-heading {
+            padding: 0;
+            border-radius: 0;
+            color: #212121;
+            background-color: #FAFAFA;
+            border-color: #EEEEEE;
+        }
+
+        .panel-title {
+            font-size: 14px;
+        }
+
+            .panel-title > a {
+                display: block;
+                padding: 15px;
+                text-decoration: none;
+            }
+
+        .more-less {
+            float: right;
+            color: #212121;
+        }
+
+        .panel-default > .panel-heading + .panel-collapse > .panel-body {
+            border-top-color: #EEEEEE;
+        }
+
+        /* ----- v CAN BE DELETED v ----- */
+
+
+        /*.demo {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }*/
+
+    </style>
+    <script>
+        function toggleIcon(e) {
+            $(e.target)
+                .prev('.panel-heading')
+                .find(".more-less")
+                .toggleClass('glyphicon-plus glyphicon-minus');
+        }
+        $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+        $('.panel-group').on('shown.bs.collapse', toggleIcon);
+    </script>
+
+</head>
+    <body>
+        
+        <!--================Header Menu Area =================-->
+        <header class="header_area">
+            <div class="top_menu row m0" style="background-color:#e2574c">
+                <div class="container">
+                    <!--<div class="float-left">
+                <ul class="list header_social">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                </ul>
+            </div>-->
+                    <div class="float-right">
+                        <a class="dn_btn" href="tel:+91 7660969960">+91 7660969960</a>
+                        <a class="dn_btn" href="mailto:support@logipool.com">support@logipool.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="main_menu">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <a class="navbar-brand logo_h" href="index.html"><img src="images/rsz_logipool.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                            <ul class="nav navbar-nav menu_nav ml-auto">
+                                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+                                <li class="nav-item submenu dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a class="nav-link" href="WebDesigning.html">WebDesigning</a>
+                                        <li class="nav-item"><a class="nav-link" href="WebDevelopment.html">WebDevelopment</a>
+                                        <li class="nav-item"><a class="nav-link" href="DotNet.html">DotNet</a>
+                                        <li class="nav-item"><a class="nav-link" href="MobileApplication.html">MobileApplication</a>
+                                        <li class="nav-item"><a class="nav-link" href="FullStack.html">FullStack</a>
+                                        <li class="nav-item"><a class="nav-link" href="Oracle.html">Oracle</a>
+                                        <li class="nav-item"><a class="nav-link" href="Python.html">Python</a>
+                                        <li class="nav-item"><a class="nav-link" href="RedHat.html">RedHat</a>
+                                        <li class="nav-item"><a class="nav-link" href="Testing.html">Testing</a>
+
+
+                                    </ul>
+                                </li>
+
+
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!--================Header Menu Area =================-->
+        
+        <!--================Home Banner Area =================-->
+        <section class="banner_area">
+            <div class="banner_inner d-flex align-items-center">
+            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+				<div class="container">
+					<div class="banner_content text-center">
+						<h2>About Us</h2>
+						<div class="page_link">
+							<a href="index.html">Home</a>
+							<a href="about-us.html">About Us</a>
+						</div>
+					</div>
+				</div>
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+        
+        <!--================About Area =================-->
+        <section class="about_area p_120">
+            <div class="container">
+
+
+                <div class="about_details" style="background-color: rgb(255,255,255); box-shadow: 12px 12px 57px 0px rgb(105, 135, 135);">
+                    <section class="infoSection">
+                        <div class="container">
+                            <div class="row">
+                                <d>
+                                    <div class="col-md-12">
+                                        <div class="content">
+
+                                            <span id="sev_headr" style="color: rgb(32,33,34)!important; text-shadow: 3px 2px 8px rgb(145, 148, 149)!important;" class="title_page">So what is Logipool?  </span>
+                                            <p style="color: black; margin-top: 5px; text-align:justify">
+                                                <span class="P_words" style="color: orange; text-align: justify;">A</span>training institute in pune that prefers to coach students practically on projects<br /> rather than theoretically by just mugging up concepts.<br /> Logipool tries to help a beginner overcome the hurdles they face when entering into a new domain by providing support at every juncture.
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                   
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+                <div class="about_details" style="background-color: rgb(255,255,255); box-shadow: 12px 12px 57px 0px rgb(105, 135, 135);">
+                    <section class="infoSection">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+
+                                    <div class="content">
+                                        <span id="sev_headr" style="color: rgb(32,33,34)!important; text-shadow: 3px 2px 8px rgb(145, 148, 149)!important;" class="title_page">Logipool Story </span>
+                                        <p style="color: black; margin-top: 10px;">
+                                            <span class="P_words" style="color: orange; text-align:justify !important">W</span> elcome to the world of LOGIPOOL INFOTECH, where we believe&nbsp;in providing high quality, job oriented training&nbsp;and placement opportunities. At LOGIPOOL quality and integrity comes first as being "the best in what we do". Our trainers are certified experts, experienced professionals with real-time projects.&nbsp; LogiPool Infotech is one of the leading IT Training, Placement, Staffing department of TechnoGrowth Software Solution Pvt. Ltd. (www. Technogrowth.com)for fresh graduate students as well as working IT Professionals.
+                                        </p><a href="">Read more</a>
+                                    </div>
+
+
+                                </div>
+                                <div class="col-lg-6">
+                                    <img class="img-fluid" src="images/1.jpg" />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="about_details" style="background-color: rgb(255,255,255); box-shadow: 12px 12px 57px 0px rgb(105, 135, 135);">
+                    <section class="infoSection">
+                        <div class="container">
+                            <div class="row">
+                               
+                                    <div class="col-md-6">
+                                        <div class="content">
+
+                                            <span id="sev_headr" style="color: rgb(32,33,34)!important; text-shadow: 3px 2px 8px rgb(145, 148, 149)!important;" class="title_page">Why prefer Logipool ? </span>
+                                            <p style="color: black; margin-top: 5px;">
+                                                <span class="P_words" style="color: orange; text-align:justify">W</span>e, as an institute do not believe in filling our batches with many students. Logipool gives more importance to the standard quality of teaching.<br>We give students exposure to many technologies and ensure they are under the guidance of expert developers who have good IT industry experience.
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-md-6">
+                                        <div class="content">
+
+                                            <span id="sev_headr" style="color: rgb(32,33,34)!important; text-shadow: 3px 2px 8px rgb(145, 148, 149)!important;" class="title_page">Logipool courses </span>
+
+                                            <p style="color: black; margin-top: 5px;">
+                                                <span class="P_words" style="color: orange; text-align:justify">C</span>ourses covered in Logipool are taught from the elementary level and finished only when the students become an expert. Students get to explore the latest technology and frameworks in the IT industry in detail.
+                                            </p>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="about_details" style="background-color: rgb(255,255,255); box-shadow: 12px 12px 57px 0px rgb(105, 135, 135);">
+                    <section class="infoSection">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+
+                                    <div class="content">
+
+                                        <span id="sev_headr" style="color: rgb(32,33,34)!important; text-shadow: 3px 2px 8px rgb(145, 148, 149)!important;" class="title_page">Why prefer Logipool ? </span>
+                                        <p style="color: black; margin-top: 5px;">
+                                            <span class="P_words" style="color: orange; text-align:justify">W</span> e, as an institute do not believe in filling our batches with many students.
+                                            Logipool gives more importance to the standard quality of teaching.
+                                            <br>We give students exposure to many technologies and ensure they are under the guidance of expert developers who have good IT industry experience.
+                                        </p>
+                                    </div>
+
+
+                                </div>
+                                <div class="col-lg-6">
+                                    <img class="img-fluid" src="images/2.jpg" />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <!--================End About Area =================-->
+       
+        
+       
+      
+        <!--================End Impress Area =================-->
+        
+        <!--================ start footer Area  =================-->	
+        <footer class="footer-area p_120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="single-footer-widget tp_widgets">
+                            <h6 class="footer_title">COURSES</h6>
+                            <ul class="list">
+                                <li><a href="#">Web Designing</a></li>
+                                <li><a href="#">Web Development</a></li>
+                                <li><a href="#">Basic Programing</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="single-footer-widget tp_widgets">
+                            <h6 class="footer_title">MAJOR LINKS</h6>
+                            <ul class="list">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Corporate</a></li>
+                                <li><a href="#">Training Process</a></li>
+                                <li><a href="#">Placements</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="single-footer-widget tp_widgets">
+                            <h6 class="footer_title">CONTACT US</h6>
+                            <ul class="list">
+                                <li><a href="#">+91 7887885052</a></li>
+                                <li><a href="#">Logipool@Gmail.Com</a></li>
+                                <li><a href="#">Pune</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="single-footer-widget tp_widgets">
+                            <h6 class="footer_title">Resources</h6>
+                            <ul class="list">
+                                <li><a href="#">Guides</a></li>
+                                <li><a href="#">Research</a></li>
+                                <li><a href="#">Experts</a></li>
+                                <li><a href="#">Agencies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row footer-bottom d-flex justify-content-between align-items-center">
+                    <p class="col-lg-8 col-md-8 footer-text m-0">
+                    <p>Copyright 2019 &copy; <a href="/">logipool</a>. All Rights Reserved. A division of logipool Solutions Pvt. Ltd</a>.</p>
+                    </p>
+                    <div class="col-lg-4 col-md-4 footer-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+		<!--================ End footer Area  =================-->
+        
+        
+        
+        
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="js/theme.js"></script>
+    </body>
+</html>
